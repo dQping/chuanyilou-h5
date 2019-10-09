@@ -1,0 +1,43 @@
+.public-header-wrapper {
+    font-size: 14px;
+    color: #333;
+    position: relative;
+    height: 64px;
+    padding: 0;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+    text-align: left;
+}
+.go-back {
+    display: inline-block;
+    font-size: 24px;
+    padding: 20px 15px;
+    color: #333;
+}
+.user-info {
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 64px;
+    height: 64px;
+    max-width: 200px;
+    display: flex;
+}
+.photo-img-wrap {
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    padding: 20px 12px;
+}
+.photo-img-wrap img {
+    display: block;
+    border-radius: 50%;
+    width: 100%;
+}
+.user-info .user-name {
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 15px;
+}

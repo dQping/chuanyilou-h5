@@ -4,7 +4,7 @@ import router from "./router/index";
 import store from "./store/index";
 import './cube-ui'
 import 'amfe-flexible'
-
+import './assets/iconfont.css'
 
 Vue.config.productionTip = false;
 

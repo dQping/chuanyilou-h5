@@ -1,0 +1,17 @@
+@import '../../assets/iconfont.css';
+
+.text-info {
+    color: #7e8c8d;
+    font-size: 14px;
+}
+.icon-info {
+    width: 100%;
+}
+.icon-info img{
+    display: block;
+    width: 100%;
+}
+.custom-btn{
+    min-width: 38%;
+    margin-top: 20px;
+}
