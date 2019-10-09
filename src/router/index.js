@@ -23,6 +23,13 @@ export default new Router({
                 import(/* webpackChunkName: "about" */ '../views/About.vue')
         },
         {
+            path: '/loading',
+            component: () =>
+                import(
+                    /* webpackChunkName: "RequestLoading" */ '../components/RequestLoading/index.vue'
+                )
+        },
+        {
             path: '*',
             component: () =>
                 import(

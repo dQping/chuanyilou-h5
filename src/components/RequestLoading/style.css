@@ -1,0 +1,14 @@
+.request-loading-component {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(48, 65, 86, 0.3);
+    font-size: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999;
+}
